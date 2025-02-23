@@ -15,6 +15,7 @@
       border: 5px solid gold;
       display: inline-flex;
       flex-direction: column;
+      flex-wrap: wrap; /* wrap the elements */
     }
 
     /*
@@ -32,6 +33,11 @@ children of the .container class.
     .blue {background-color: #4834d4;}
     .indigo {background-color: #30336b;}
     .purple {background-color: #be2edd;}
+
+    .green {
+      order: 1; 
+      /* setting the green to the end */
+    }
   </style>
 </head>
 
