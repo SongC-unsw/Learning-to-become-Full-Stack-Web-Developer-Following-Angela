@@ -1,0 +1,11 @@
+/* Write your CSS code below to make the purple items size, grow and shrink like the green ones.*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+   
+  }
+    
+    
